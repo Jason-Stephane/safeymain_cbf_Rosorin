@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+ps5_ws/build/
+ps5_ws/install/
+ps5_ws/log/
+*.csv
+*.jpg
+*.npz

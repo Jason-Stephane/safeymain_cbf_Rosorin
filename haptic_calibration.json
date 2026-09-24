@@ -1,0 +1,20 @@
+{
+  "65": {
+    "master_low": 0.040605,
+    "master_high": 0.1,
+    "master_max": 0.1,
+    "freq": 60.0
+  },
+  "P1": {
+    "master_low": 0.100447,
+    "master_high": 0.29214,
+    "master_max": 0.35,
+    "freq": 60.0
+  },
+  "100": {
+    "master_low": 0.01166,
+    "master_high": 0.087669,
+    "master_max": 0.1,
+    "freq": 60.0
+  }
+}

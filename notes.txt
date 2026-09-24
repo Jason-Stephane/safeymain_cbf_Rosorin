@@ -1,0 +1,42 @@
+Robotnik IP address
+http://192.168.0.200:11311
+
+robot@192.168.0.200
+Robotnik - coded password
+
+docker start -i ros-noetic      # restart after stopping
+docker exec -it ros-noetic bash # extra shell while it's running
+ 
+
+#Laptop must connect to robots master.
+
+source .bashrc
+
+source devel/setup.bash
+
+
+
+
+#full experiment launch
+
+roslaunch experiment launch_experiment_4.launch 
+
+
+#sudo apt install ros-noetic-joy #joy package install
+rosrun joy joy_node 
+
+#controller topics
+rosrun cv_basics joy_repacker.py 
+
+#SAC run
+
+rosrun kairos_laser sharedAutonomyController_v16.py 
+
+### for feedback
+rosrun cv_basics haptic_node.py 
+
+
+# to make changes
+
+catkin_make?
+
